@@ -1,6 +1,6 @@
-#PYTHON
+# PYTHON
 ---
-###Operadores Matematicos
+### Operadores Matematicos
 **En la consola**
 
 *Suma*
@@ -42,7 +42,8 @@
 Es un identificador, en una variable puedo guardar objetos
 
 ----
-###**Los primitivos: Tipos de Datos**
+### Los primitivos: Tipos de Datos
+
 **se puede utilizar comillas  dobles(" ")  o simple(' ') y (+) se utiliza para concatenacion**
 1-Numeros enteros
 ```py
@@ -66,7 +67,7 @@ trabaja = true
 
 ---
 
-###**Convertir un dato a un tipo diferente:**
+### Convertir un dato a un tipo diferente:
 ***input(" ") para pedirle al usuario que introduzca datos***
 ```py
 a = input("Escribe un número: ")
@@ -90,7 +91,7 @@ str(b)='4'
 
 ***float() para convertir a flotantes***
 
-###**Operadores logicos y de comparacion**
+### Operadores logicos y de comparacion
  
  
 <!-- 
