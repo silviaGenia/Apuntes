@@ -85,15 +85,121 @@ c = int(a) + int(b) = 3
 ***str() para convertir numeros tanto decimales como enteros a strings***
 ```py
 b = 4
-//para llevarlo a string
+para llevarlo a string
 str(b)='4'
 ```
 
 ***float() para convertir a flotantes***
 
+------
+
 ### Operadores logicos y de comparacion
- 
- 
+
+***Logicos:***
+ "and"  para comparar si dos valores son verdaderos
+ "or" para comparar si dos valores son falsos
+ "not" para invertir el valor boliano 
+
+```py
+estudiante = true
+trabaja = false 
+
+estudiante and trabaja
+false
+
+estudiante or trabaja
+true
+
+not trabaja 
+true
+```
+***Comparacion:***
+
+" == " Compara dos valores y te dice sin son iguales. o no
+" != " Compara dos valores  y te dice si son. diferentes o no.
+" > " Compara si es mayor que otro valor.
+" < " Compara si es menor que otro valor.
+" >= " Igual o mayor que el valor a comparar.
+" <= " Igual o menor que el valor a comparar.
+
+------
+
+***Ejemplo:***
+```py
+ //Tu primer programa conversosr de monedas//
+pesos = input("Cuantos pesos Bolivianos tienes?: ")
+pesos = float(pesos)
+valor_dolar = 6.91
+dolares = pesos / valor_dolar
+
+//round: redondea a dos decimales// 
+dolares = round(dolares, 2)
+dolares = str(dolares)
+print("Tienes $" + dolares + " dolares")
+```
+
+### Condicionales
+
+```py
+if (si)
+else (si no)//si desea ejecujar otro codigo 
+elif (si no)//se utiliza cuando utilizamos multiples condiciones
+```
+
+***Ejemplo***
+```py
+numero = int(input("Escribe un número: "))
+
+if numero > 5:
+    print("Es mayor a 5")
+elif numero == 5:
+    print("Es iguala a 5")
+else:
+    print("Es memor a 5")
+```
+---
+### Funciones
+
+
+```py
+opcion = int(input("Elige una función (1,2,3): "))
+if opcion == 1:
+    print("Hola")
+    print("Como estás")
+    print("Elegiste la opción 1")
+    print("Adios")
+elif opcion == 2:
+    print("Hola")
+    print("Como estás")
+    print("Elegiste la opción 1")
+    print("Adios")
+elif opcion == 3:
+    print("Hola")
+    print("Como estás")
+    print("Elegiste la opción 1")
+    print("Adios")
+else
+    print("Escribe la opcion correcta")
+```
+
+***Con las Funciones no se repite codigo***
+```py
+def conversacion(mensaje):
+    print("Hola")
+    print("Como estás")
+    print(mensaje)
+    print("Adios")
+opcion = int(input("Elige una función (1,2,3): "))
+if opcion == 1:
+    conversacion("Elegiste la opción 1")
+elif opcion == 2:
+    conversacion("Elegiste la opción 2")
+elif opcion == 3:
+    conversacion("Elegiste la opción 3")
+else
+    print("Escribe la opcion correcta")
+```
+
 <!-- 
 `para codigo`
 *para cursiva*
